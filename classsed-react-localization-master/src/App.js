@@ -1,23 +1,3 @@
-// import { useState } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-// import './App.css'
-
-// function App() {
-//   const [count, setCount] = useState(0)
-
-//   return (
-//     <>
-//   <div className='flex p-0 m-0 bg-red-600 top-0'>
-//   <p className='flex p-0 m-0 bg-blue-600'>dededeede</p>
-//   <p>sdsd</p>
-//   </div>
-//     </>
-//   )
-// }
-
-// export default App
-// import 'flag-icon-css/css/flag-icon.min.css'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
 import i18next from 'i18next'
@@ -117,11 +97,7 @@ export default function App() {
       <div className="d-flex flex-column align-items-start">
         <h1 className="font-weight-normal mb-3">{t('welcome_message')}</h1>
         <p>{t('days_since_release', { number_of_days })}</p>
-        <p>{t('name')}</p>
-
       </div>
-
     </div>
   )
 }
-
